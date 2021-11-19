@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <table>
+        <tr>
+          <td colspan="4">
+            <form>
+              <input class="tablero" id="tablero" placeholder="0">
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="botonGris" onclick="cleanInput()">AC</button>
+          </td>
+          <td>
+            <button class="botonGris" onclick="inverso()">+/-</button>
+          </td>
+          <td>
+            <button class="botonGris" onclick="porciento()">%</button>
+          </td>
+          <td>
+            <button class="botonSalmon" onclick="operacionFunction('/')">÷</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="botonNegro" onclick="add(7)">7</button>
+          </td>
+          <td>
+            <button class="botonNegro" onclick="add(8)">8</button>
+          </td>
+          <td>
+            <button class="botonNegro" onclick="add(9)">9</button>
+          </td>
+          <td>
+            <button class="botonSalmon" onclick="operacionFunction('*')">x</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="botonNegro" onclick="add(4)">4</button>
+          </td>
+          <td>
+            <button class="botonNegro" onclick="add(5)">5</button>
+          </td>
+          <td>
+            <button class="botonNegro" onclick="add(6)">6</button>
+          </td>
+          <td>
+            <button class="botonSalmon" onclick="operacionFunction('-')">-</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="botonNegro" onclick="add(1)">1</button>
+          </td>
+          <td>
+            <button class="botonNegro" onclick="add(2)">2</button>
+          </td>
+          <td>
+            <button class="botonNegro" onclick="add(3)">3</button>
+          </td>
+          <td>
+            <button class="botonSalmon" onclick="operacionFunction('+')">+</button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button class="botonCero botonNegro" onclick="add(0)">0</button>
+          </td>
+          <td>
+            <button class="botonNegro" onclick="add('.')">.</button>
+          </td>
+          <td>
+            <button class="botonSalmon" onclick="igual()">=</button>
+          </td>
+        </tr>
+      </table>
+</body>
+<script src="index.js"></script>
+</html>

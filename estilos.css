@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+    margin: 2px;
+    font-size: 30px;
+    font-weight: 250;
+}
+
+.botonCero {
+    width: 100%;
+    text-align: left;
+    padding-left: 25px;
+}
+.botonCero:hover{
+    background:#111;
+    color: white;
+    border:none;
+}
+  
+.botonCero:active{
+    opacity: 0.9;
+}
+
+.botonGris {
+    background-color: #a6a6a6;
+    color: black;
+}
+.botonGris:hover{
+    background:#111;
+    color: white;
+    border:none;
+}
+  
+.botonGris:active{
+    opacity: 0.9;
+}
+
+.botonNegro {
+    background-color: #333333;
+    color: white;
+}
+.botonNegro:hover{
+    background:#111;
+    color: white;
+    border:none;
+}
+  
+.botonNegro:active{
+    opacity: 0.9;
+}
+
+.botonSalmon {
+    background-color: #ff9501;
+    color: white;
+}
+.botonSalmon:hover{
+    background:#111;
+    color: white;
+    border:none;
+}
+  
+.botonSalmon:active{
+    opacity: 0.9;
+}
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: black;
+}
+
+.tablero {
+    border: none;
+    width: 250px;
+    font-size: 50px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    font-weight: 200;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
